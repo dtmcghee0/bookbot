@@ -28,7 +28,7 @@ def main():
     # Print results
     print(f"Found {num_words} total words\n")
     for item in sorted_chars:
-        print(f"The '{item['char']}' character was found {item['num']} times")
+        print(f"{item['char']}: {item['num']}")
 
 
 if __name__ == "__main__":
